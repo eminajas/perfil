@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    /*aquí indicamos el minimo de de altura que queremos que tenga*/
+}
+
+html {
+    height: 100%;
+    /*este truquito nos permite que los item del grid ocupen el 100% de nuestra página*/
+}
+
+
+.full-background {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+
+    /* Background */
+    background: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg') center center / cover no-repeat;
+}
+
+.avatar {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Size */
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar__image {
+    /* Size */
+    height: 100px;
+    width: 200px;
+}
+
+.yo{
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
